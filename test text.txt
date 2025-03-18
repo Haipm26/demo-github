@@ -1,0 +1,2 @@
+ssh-keygen -t ed25519 -C "haiphamminh2k6@gmail.com"
+fsdadsadasdas
