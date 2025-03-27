@@ -1,4 +1,5 @@
 # QR Code Generator
+![image](https://github.com/user-attachments/assets/688c5813-ab92-430f-bce6-185e5a52a1f7)
 
 A customizable QR code generator built with JavaScript, Supabase, and QRCodeStyling. This project allows users to create, customize, track, and manage QR codes with a user-friendly interface. It supports authentication via Google OAuth, history tracking, and scan analytics, making it a powerful tool for generating and managing QR codes.
 
