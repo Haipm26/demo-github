@@ -39,4 +39,4 @@ A customizable QR code generator built with JavaScript, Supabase, and QRCodeStyl
 Clone the project from GitHub to your local machine and navigate into the project directory:
 ```bash
 git clone git@github.com:kip310/qr-code-js-club.git
-cd qr-code-generator
+cd qr-code-js-club
