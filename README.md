@@ -6,7 +6,8 @@ A customizable QR code generator built with JavaScript, Supabase, and QRCodeStyl
 
 - **Customizable QR Codes**: Adjust size, margin, colors, dots style, corners, background, and add a logo.
 - **Authentication**: Log in with Google OAuth via Supabase for secure user management.
-- **History Tracking**: Save generated QR codes to a user's history with edit and delete options.
+- **History Tracking**: Save generated QR codes to a user's history with options to:
+- **Edit URL**: Modify the destination URL associated with a QR code without changing the QR code itself (e.g., update the redirect target while keeping the QR image intact).
 - **Scan Tracking**: Optionally track the number of scans for each QR code using a redirect mechanism.
 - **State Persistence**: Save and load QR code settings using `sessionStorage`.
 - **File Validation**: Upload custom logos with validation for PNG, JPEG, and WEBP formats.
@@ -29,11 +30,12 @@ A customizable QR code generator built with JavaScript, Supabase, and QRCodeStyl
 - Node.js (for local development)
 - A Supabase account and project
 - An EmailJS account for the contact form
-- A modern web browser
+- A web browser
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
+Clone the project from GitHub to your local machine and navigate into the project directory:
 ```bash
-git clone https://github.com/your-username/qr-code-generator.git
+git clone git@github.com:kip310/qr-code-js-club.git
 cd qr-code-generator
